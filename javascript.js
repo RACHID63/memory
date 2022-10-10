@@ -1,5 +1,5 @@
 let jeuTableau;
-let allCards = document.querySelectorAll("card");
+let allCards = document.querySelectorAll(".card");
 allCards.forEach((card) => {
   card.addEventListener("click", function () {
     if (card.classList.contains("caché")) {
